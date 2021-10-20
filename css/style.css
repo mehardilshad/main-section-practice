@@ -1,0 +1,163 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #282A39;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+	background: #fff2fd;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #282A39;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1100px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+#main {
+
+}
+#main h1{
+	font-weight: 600;
+	margin-top: 6% ;
+	font-size: 30px;
+	width: 30%;
+}
+#main div.container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: ;
+}
+#main div.container div.img-container {
+	width: 29%;
+	margin-right: 10px;
+}
+ #main div.container div.img-container:last-child{
+	margin-right: 0;
+	margin-top: -240px;
+} 
+#main div.container div.img-container:first-child{
+	margin-top: 20%;
+}
+#main div.container div.img-container:nth-child(2){
+	margin-top: 0%;
+}
+
+#main div.container div.img-container img {
+	display: block;
+	width: 50%;
+}
+#main div.container div.img-container h1{
+	font-size: 15px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+#main div.container div.img-container p{
+	border-bottom: 2px solid rgba(102, 96, 96, 0.452);
+	font-size: 14px;
+	width: 80%;
+	color: rgba(102, 96, 96, 0.884);
+	font-weight: 600;
+}
+@media all and (max-width:1280px){
+	#main h1 {
+		width: 55%;
+	}
+	#main div.container div.img-container p{
+		width: 100%;
+	}
+}
+@media all and (max-width:980px){
+	#main h1 {
+		width: 60%;
+		font-size: 19px;
+	}
+	#main div.container div.img-container:last-child {
+		margin-right: 0;
+		margin-top: -149px;
+	}
+	#main div.container div.img-container h1 {
+		font-size: 11px;
+	}
+	#main div.container div.img-container p {
+		width: 100%;
+		font-size: 10px;
+	}
+	
+}
+@media all and (max-width:980px){
+	#main h1 {
+		width: 54%;
+	}
+	#main div.container div.img-container h1 {
+		font-size: 9px;
+	}
+	#main div.container div.img-container p {
+		width: 100%;
+		font-size: 8px;
+	}
+}
